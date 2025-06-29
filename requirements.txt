@@ -1,4 +1,12 @@
-FastAPI
-uvicorn
-pytest
-httpx
+ FastAPI
+ uvicorn[standard]
+ SQLAlchemy
+ python-jose[cryptography]
+ passlib[bcrypt]
+ python-dotenv
+ httpx
+ pytest
+ pytest-asyncio
+ pydantic
+ pydantic[email]
+ python-multipart
